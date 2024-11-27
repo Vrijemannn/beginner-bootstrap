@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riwayat Pendidikan</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <style>
+        body {
+            padding-top: 60px;
+            font-family: 'Inter', sans-serif;
+        }
+        .navbar-custom {
+            background-color: #343a40;
+        }
+        .navbar-custom .nav-link {
+            color: #f8f9fa;
+            margin-right: 1rem;
+        }
+        .navbar-custom .nav-link:hover {
+            color: #116ea0;
+        }
+        .rounded-image {
+            border: 2px solid #3430;
+        }
+        section {
+            padding-top: 60px;
+        }
+        footer {
+            background-color: #343a40;
+            color: white;
+        }
+        table {
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-custom">
+        <div class="container">
+            <a class="navbar-brand text-light" href="#">Lutfi Abrar Rahman</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about-me">About Me</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education">Educations</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#find-me">Find Me</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="about-me" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">About Me</h2>
+            <div class="row align-items-center">
+                <div class="col-md-4 text-center">
+                    <img src="https://via.placeholder.com/150" class="rounded-circle rounded-image mb-3" alt="Foto Profil">
+                </div>
+                <div class="col-md-8">
+                    <p class="text-justify">Halo, perkenalkan, Nama saya Lutfi Abrar Rahman. Saya seorang siswa dari SMK Telkom Jakarta dan mengambil jurusan RPL. Saya merupakan siswa yang cukup aktif dalam berorganisasi di Tim Konten, serta aktif dalam akademik seperti Lomba TSDN 2024 yang sedang saya ikuti.</p>
+                    <p class="text-justify">Disamping itu saya memiliki hobi. Salah satu hobi saya yaitu fotografi. Dengan fotografi saya dapat berekspresi dengan pesan yg ingin saya tuju dengan berfotografi. Saya juga menyukai musik, apalagi genre jazz. Dengan mendengar musik jazz saya dapat melakukan hal produktif dengan fokus. </p>
+
+                </div>
+                <div class="ratio ratio-16x9">
+                    <iframe src="https://www.youtube.com/embed/oxNUAAtJrOY?si=OBEk8FYMwb3bFwML" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Educations</h2>
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Tahun</th>
+                        <th>Peran/Posisi</th>
+                        <th>Deskripsi</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2023</td>
+                        <td>Pelajar</td>
+                        <td>Belajar di kelas</td>
+                    </tr>
+                    <tr>
+                        <td>2024</td>
+                        <td>Anggota Ekstrakurikuler Futsal</td>
+                        <td>Hanya Menjadi Futsal</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3 class="mt-5">Riwayat Pendidikan</h3>
+            <table class="table">
+                <thead class="thead-dark">
+                    <tr>
+                        <th>Nama Sekolah</th>
+                        <th>Tahun</th>
+                        <th>Deskripsi</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>SD Negeri 01</td>
+                        <td>2013-2019</td>
+                        <td>Lulus di Masa Pandemi Covid</td>
+                    </tr>
+                    <tr>
+                        <td>SMP Negeri 2</td>
+                        <td>2019-2022</td>
+                        <td>Tidak Terlalu Aktif</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section id="find-me" class="container py-5 text-center">
+        <h2>Find Me On Sosial Media</h2>
+        <div class="d-flex justify-content-center">
+            <a href="https://instagram.com" target="_blank" class="me-3"><img src="" alt="Instagram" width="50"></a>
+            <a href="https://whatsapp.com" target="_blank" class="me-3"><img src="" alt="Whatsapp" width="50"></a>
+            <a href="https://tiktok.com" target="_blank"><img src="" alt="Tiktok" width="50"></a>
+        </div>
+    </section>  
+
+    <section id="contact" class="container py-5">
+        <h2 class="text-center">Contact Me</h2>
+        <form>
+            <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="3" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-warning">Submit</button>
+        </form>
+    </section>
+
+    <footer class="text-center py-3">
+        <p>&copy; 2024 Alwan Darmawan Suwito. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
